@@ -1,5 +1,6 @@
 pipeline {
-    agent any // Or 'any' if running directly on your SSH node
+    agent pipeline {
+    agent { label 'pipeline' }// Or 'any' if running directly on your SSH node
 
     stages {
         stage('Checkout') {
