@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'ubuntu-agent' } // Or 'any' if running directly on your SSH node
+    agent any // Or 'any' if running directly on your SSH node
 
     stages {
         stage('Checkout') {
