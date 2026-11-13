@@ -1,5 +1,5 @@
 {
-  "name": "appseed-generic",
+  "name": "Seed",
   "version": "1.0.0",
   "description": "Generic tooling by AppSeed",
   "main": "gulpfile.js",
